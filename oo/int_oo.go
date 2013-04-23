@@ -3,15 +3,15 @@ import (
 	"fmt"
 )
 
-type Integer int
+type integer int
 
-func (a Integer) Less (b Integer) bool {
+func (a integer) less (b integer) bool {
 	return a < b
 }
 
 func main() {
-	var a Integer = 1
-	if a.Less(2) {
-		fmt.Println(a, "Less 2")
+	var a integer = 1
+	if a.less(2) {
+		fmt.Println(a, "less 2")
 	}
 }
