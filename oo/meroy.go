@@ -39,6 +39,5 @@ func main() {
 	unsafe.Offsetof(m.User.Name))
 	fmt.Printf("  User.Name size = %d\n",
 	unsafe.Sizeof(m.User.Name))
-
 }
 
