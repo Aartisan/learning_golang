@@ -16,7 +16,7 @@ func max(arr []int) int {
 
 func min(arr []int) int {
 	var min int
-	min  = arr[0]
+	min = arr[0]
 	for _, i := range arr {
 		if i < min {
 			min = i
@@ -45,7 +45,7 @@ func mix(arr []int, mark string) int {
 }
 
 func main() {
-	arr := []int{5,6,71,23,46,9,234,64}
+	arr := []int{5, 6, 71, 23, 46, 9, 234, 64}
 	fmt.Printf("In arr max is %d\n", max(arr))
 	fmt.Printf("In arr min is %d\n", min(arr))
 	fmt.Printf("In arr in mix func min is %d\n", mix(arr, "min"))
